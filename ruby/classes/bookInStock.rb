@@ -5,10 +5,13 @@ class BookInStock
     @price = Float(price)
   end
 
-  def to_s
-    "ISBN: #{@isbn} , price #{@price}"
-  end
+  # def to_s
+  #   "ISBN: #{@isbn} , price #{@price}"
+  # end
 end
+
+# every time when we write puts its called default to_s method inside hexidecimal number of object
+# puts b1 is same as puts b1.to_s
 
 b1 = BookInStock.new('isbn1', 3)
 p b1
