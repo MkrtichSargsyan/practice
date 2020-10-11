@@ -9,4 +9,4 @@ def palindromeIndex(s)
   -1
 end
 
-p palindromeIndex('silent')
+p palindromeIndex('adgdda')
