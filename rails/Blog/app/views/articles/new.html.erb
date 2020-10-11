@@ -1,1 +1,14 @@
-<h1>Hello from the new template</h1>
+<h1>Hello from the New Article!</h1>
+<%= form_for :article, url: articles_path do |f| %>
+  <p>
+    <%= f.label :title %> <br>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :text %> <br>
+    <%= f.text_area :text %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
