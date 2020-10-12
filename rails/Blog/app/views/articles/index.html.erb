@@ -12,13 +12,21 @@
       <td>
         <%= truncate(article.text, length: 75) %>
       </td>
-      <td>
+      <td> |
         <%= link_to 'Show', article_path(article) %>
+      </td>
+      <td> |
+        <%= link_to 'Edit', edit_article_path(article) %>
+      </td>
+      <td> |
+        <%= link_to 'Delete', article_path(article),  
+        method: :Delete, 
+        data: {confirm: 'Are you certain?'}
+        %>
       </td>
     </tr>
   <% end %>
 </table>
-
 <p>
   <%= link_to 'Home', welcome_index_path %>
 </p>
