@@ -6,7 +6,35 @@
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
-<p>
-  <%= link_to 'Back', articles_path %>
-  <%= link_to 'Home', welcome_index_path %>
-</p>
+<hr>
+
+<h2> Comments </h2>
+
+<% @article.comments.each do |comment| %>
+  <p><strong>Commenter: </strong></p>
+  
+<% end %>
+
+
+<hr>
+<h2>Add comment</h2>
+<%= form_for ([@article,@article.comments.build]) do |f| %>
+  <p>
+    <%= f.label :commenter %> <br>
+    <%= f.text_field :commenter %>
+  </p>
+
+  <p>
+    <%= f.label :body %> <br>
+    <%= f.text_area :body %>
+  </p>
+
+  <p><%= f.submit %></p>
+
+<% end %>
+
+
+  <p>
+    <%= link_to 'Back', articles_path %>
+    <%= link_to 'Home', welcome_index_path %>
+  </p>
