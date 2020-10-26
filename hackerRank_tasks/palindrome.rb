@@ -1,8 +1,8 @@
 def palindromeIndex(s)
   return -1 if s == s.reverse
 
-  i = 0
-  j = s.size - 1
+  i = 0  
+  j = s.size - 1 
 
   while s[i] == s[j]
     i += 1
@@ -18,4 +18,4 @@ def palindromeIndex(s)
   -1
 end
 
-p palindromeIndex('aaa')
+p palindromeIndex('accda')
