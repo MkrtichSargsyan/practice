@@ -3,5 +3,5 @@ def pageCount(n, p)
   f = p.even? ? (n - p) / 2 : (n + 1 - p) / 2
   [s, f].min
 end
-
+                                                                                                                                                                                                                                                                                                                                              
 p pageCount(9, 8)
