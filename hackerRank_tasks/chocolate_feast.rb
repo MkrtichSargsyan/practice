@@ -1,4 +1,14 @@
 def chocolateFeast(n, c, m)
+  chocolates = n / c
+  wrappers = chocolates
 
-  Complete the chocolateFeast function in the editor below. It must return the number of chocolates Bobby can eat after taking full advantage of the promotion.
+  while m <= wrappers
+    temp = wrappers / m
+    chocolates += temp
+    wrappers -= temp * m
+    wrappers += temp
+  end
+  chocolates
 end
+
+p chocolateFeast(12, 4, 4)
