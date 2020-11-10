@@ -24,4 +24,5 @@ def encryption(s)
   temp
 end
 
-p encryption('have a nice day')
+p encryption('didnt you try do with a small character') 
+
