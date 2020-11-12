@@ -1,4 +1,11 @@
-def fairRations(B)
+def fairRations(arr)
+  return 'NO' if arr.inject { |sum, el| sum + el }.odd?
 
-  You are the benevolent ruler of Rankhacker Castle, and today you're distributing bread. Your subjects are in a line, and some of them already have some loaves. Times are hard and your castle's food stocks are dwindling, so you must distribute as few loaves as possible according to the following rules:
+  arr.each do |el|
+
+  end
+
 end
+
+p fairRations[2, 3, 4, 6, 5]
+
