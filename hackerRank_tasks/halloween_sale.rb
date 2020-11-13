@@ -1,14 +1,19 @@
 def howManyGames(p, d, m, s)
-  
-
   spent = p
   count = 1
 
-  while spent < s
-    
-    spent += 
+  while spent+p<=s
+
+     if p - d <= m 
+        d = m
+        
+     else
+      p -= d
+     end
+    spent += p
+
     count += 1
-    p s
+    p spent
   end
   count
 end
