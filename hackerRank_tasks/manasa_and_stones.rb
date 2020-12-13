@@ -1,4 +1,15 @@
 def stones(n, a, b)
-
-  Complete the stones function in the editor below. It should return an array of integers representing all possible values of the last stone, sorted ascending.
+  return (n-1)*a if a == b
+        
+  min = [a,b].min
+  max = a + b - min
+  distance= max - min
+  first = (n-1) * min
+  
+  result = []
+  n.times do |step|
+      result << first+ distance*step
+  end
+  
+  result.join(' ')
 end
