@@ -1,21 +1,16 @@
 def happyLadybugs(b)
-  sorted_b = b.split('').sort
-  output = 'NO'
-  p sorted_b
+  b = b.split('')
+  output = 'YES'
 
-  if sorted_b[-1] == '_'
-    output = 'YES'
-    return output if sorted_b[0] == '_'
+  b.each do |el|
+    return 'NO' if b.select { |letter| el == letter && el != '_' }.count == 1
+  end
 
-    sorted_b.each do |el|
-      return 'NO' if sorted_b.select { |letter| el == letter && el != '_' }.count == 1
-    end
-
-  else
-    return 'YES' if sorted_b == b
+  b.max != '_' && b[1...-1].each_with_index do |el, ind|
+    return 'NO' if el != b[ind] and el != b[ind + 2]
   end
 
   output
 end
 
-p happyLadybugs('_')
+p happyLadybugs('RRGGBBXX')
