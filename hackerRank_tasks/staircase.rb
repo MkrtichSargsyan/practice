@@ -1,4 +1,10 @@
-def staircase(n)
+# frozen_string_literal: true
 
-  Write a program that prints a staircase of size .
+def staircase(n)
+  (1..n).each do |i|
+    print ' ' * (n - i) + '#' * i
+    puts
+  end
 end
+
+staircase(6)
