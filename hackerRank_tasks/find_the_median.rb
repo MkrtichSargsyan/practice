@@ -1,4 +1,5 @@
 def findMedian(arr)
-
-  Complete the findMedian function in the editor below. It must return an integer that represents the median of the array.
+  p arr.sort[arr.length/2]
 end
+
+findMedian([0, 1, 2, 4, 6, 5, 3])
