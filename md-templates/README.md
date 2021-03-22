@@ -1,49 +1,82 @@
-# Embedding images and video
+**Status:** Changes Requested 🟠  :shipit:? Not yet.
 
-This project is a replica of youtube player page
+# Hey guys, you've been doing a great job, and also I hope you enjoyed coding.
 
-## Desktop
-![screenshot](https://github.com/RICKCOYL/embeded-images-and-videos/blob/hompage/screencapture-file-C-Users-Hp-Documents-Microverse-full-time-course-embeded-images-and-videos-index-html-2020-07-09-16_08_49.png)
+### Your work is amazing you master it GitHub Flow you have a professional README file. 
 
-## Built With
+However, in order to accomplish as the actual page, you required to do these changes, listed below:
 
-- HTML,
-- CSS,
-- VS Code
-- Firefox Developer Edition dev tools
+## General requirements
 
-## Live Demo
+- Files not related  to the project should not be committed and added to .gitignore (e.g. .DS_Store) (screenshot from Pathwright)
 
-<a href= "https://rawcdn.githack.com/RICKCOYL/embedding-images-and-video2/a77e9d502c03f5f9b1719a0b180b90f8b2b754f7/index.html" target="_blank">Live version</a>
+- [ ] Remove `.vscode` directory from your project
 
-## Author
+## RWD review
 
-Feel free to reach out. I'm always happy to connect :slightly_smiling_face:
+First work in the media queries changes, check this [inline comments](https://github.com/MkrtichSargsyan/microverse-the-next-web/pull/1#discussion_r459577157)
 
-👤 **Mkrtich Sargsyan**
+- ### Large screen
 
+**Top 3 articles section**
 
-[<code><img height="26" src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png"></code>](https://github.com/MkrtichSargsyan)
-[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"></code>](https://twitter.com/MkrtichSargsyan)
-[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"></code>](https://www.linkedin.com/in/mkrtich-sargsyan/)
-[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Gmail_Icon.svg"></code>](mailto:mkrtichsargsyan24@gmail.com)
+- [x] Should display four elements in the same line 
 
+![image](https://user-images.githubusercontent.com/24902525/88313281-eb3f0700-ccd8-11ea-831d-b79d6b4a856c.png)
 
+- ### Medium screen
+ **Navbar**
 
-## 🤝 Contributing
+- [x] Right links should be removed with this screening approach
 
-Contributions, issues and feature requests are welcome!
+![image](https://user-images.githubusercontent.com/24902525/88313441-2c371b80-ccd9-11ea-94db-40faf38b806d.png)
 
-Feel free to check the <a href="https://github.com/RICKCOYL/embeded-images-and-videos/issues"> issues page</a>.
+**Top 3 articles section** 
 
-## Show your support
+- [x] According to each media query breakpoint change also the font size for each article
 
-Give a ⭐️ if you like this project!
+**Note:** Same approach for the small screen
 
-## Acknowledgments
+![image](https://user-images.githubusercontent.com/24902525/88313600-5ee11400-ccd9-11ea-86ea-1b5a035607f0.png)
 
-- <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a> 
-- <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
-- <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
-- <a href="https://css-tricks.com/" target="_blank">CSS-TRICKS</a>
-- <a href="https://youtube.com/" target="_blank">YouTube player page</a>
+**Latest funding rounds**
+
+- [x] Change title should **Latest funding rounds on Index.co**
+
+- [x] Link section should be listed 
+
+| ACTUAL WEB PAGE | YOURS |
+| :-------------: | :---: |
+| ![image](https://user-images.githubusercontent.com/24902525/88313752-964fc080-ccd9-11ea-9911-880018f6c45e.png) | ![image](https://user-images.githubusercontent.com/24902525/88313735-8fc14900-ccd9-11ea-8413-49c3ac567083.png) |
+
+- It aligns 3 articles per row ([link to page](https://thenextweb.com/))
+
+![image](https://user-images.githubusercontent.com/24902525/88313793-a7003680-ccd9-11ea-8da9-9428340c3857.png)
+
+- ### Small screen
+
+**Latest funding rounds** 
+
+- [x] Should be added a margin-top for this section 
+
+![image](https://user-images.githubusercontent.com/24902525/88314093-0e1deb00-ccda-11ea-882b-f04a7a570890.png)
+
+ **Footer**
+
+ - [x] The footer section  doesn't look like the original page 
+ 
+| ACTUAL WEB PAGE | YOURS |
+| :-------------: | :---: |
+| ![image](https://user-images.githubusercontent.com/24902525/88314501-a025f380-ccda-11ea-86db-f19e86bb3e87.png) | ![image](https://user-images.githubusercontent.com/24902525/88314487-9b613f80-ccda-11ea-8172-05d65f681ef8.png) |
+
+### Summary
+
+- Please start working with media queries first then go with the next requirements
+- Don't forget to work with inline comments below this comment box.
+
+<hr>
+
+Guys work in the requested changes above and request another review.
+Good luck. 
+
+> “Never stop, never conform until what is good becomes even better, and what’s better becomes excellent.”

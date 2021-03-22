@@ -1,0 +1,3 @@
+- [ ] Encourage the use of the [`<nav>` tag](http://html5doctor.com/nav-element/) for the major navigation links
+- [ ] Encourage the use of the [`<main>` tag](https://www.w3schools.com/tags/tag_main.asp) for the dominant content of the `<body>` of a document
+- [ ] Encourage the use of the [`<footer>`](https://www.w3schools.com/TagS/tag_footer.asp) tag for the footer

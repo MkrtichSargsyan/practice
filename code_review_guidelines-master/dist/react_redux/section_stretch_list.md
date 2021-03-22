@@ -1,0 +1,5 @@
+- [ ] Students should not overuse ESLint disable comments, ie: `eslint-ignore <rule-to-be-ignored>`.
+  - Disabling rules multiple times in the same file, or disabling easy to fix rules such as `no-console`, `no-alert`, or `no-undef` should be avoided.
+  - Disabling rules for situations that are hard to fix, and would require refactoring a lot of components, should be ok.
+  - Eslint rules are meant to catch bad code and enforce best practices and the eslintrc provided by [Microverse linters repo](https://github.com/microverseinc/linters-config/blob/master/react-redux/.eslintrc.json) doesn't enforce strict rules.
+  - By disabling ESLint rules, the student is suppressing the potential warnings they’d be getting, missing out on the education that ESLint rules provide. (See [screenshot](https://gitlab.com/microverse/guides/projects/requirements_screenshots/raw/master/images/general/no-ignore-linters.png) from [pathwright](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/54883773/))
