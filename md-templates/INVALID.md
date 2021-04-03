@@ -1,10 +1,11 @@
-**Status:** Invalid submission warning
-Hello @gurbuzertunga @marcode95
-Remember about descriptive README file - feel free to use this template:
-https://github.com/microverseinc/readme-template
+## _Status:_ Invalid submission warning
 
-This Code Review Request will be marked as invalid in your Dashboard, so please submit a new one once you are ready!
+## Hello Guys
 
-Happy coding relaxed
 
-Oscar Andrés Russi Porras
+This Code Review Request will be marked as invalid in your Dashboard because you didn't follow the correct [Git Flow](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/59882084/) as required for this project. You should have a development branch as default, and make a pull request from enumerable_testing branch into the development branch
+
+Please make the necessary changes and submit another code review request once you are ready! :slightly_smiling_face:.
+
+
+> ps: . If you have any questions about my review or need help, you can message me on slack ( @mkrtichsargsyan )

@@ -1,0 +1,65 @@
+Hello, Fernando Marques 👋 Congratulations on finishing the ruby section of the Microverse. The project is very professional ⭐ .It looks great with everything from a professional README file, to good code organization and use of the best practices. Especially I like the idea of automatically tweeting news from the Medium website.
+
+
+Hello, Leonardo Paz 👋 Congratulations on finishing the ruby section of the Microverse.The app runs as expected. Especially I like the idea of making a bot for ordering a pizza ⭐
+
+
+
+1. The project is clear and solve the problem it was supposed to solve.
+2. Your PR has a good title and description.
+3. You have descriptive git commit messages.
+
+
+
+
+
+
+Hello, Leonardo Paz 👋 Congratulations on finishing the ruby section of the Microverse.The app runs as expected. Especially I like the idea of making a bot for ordering a pizza ⭐
+
+1. The project is clear and solve the problem it was supposed to solve.
+2. Your PR has a good title and description.
+3. You have descriptive git commit messages.
+
+
+1. There is unnecessary attribute accessors in your cart.rb file
+  ``` attr_reader :content, :companies ```
+  ``` attr_reader :raw_data ```
+  ``` attr_accessor :selected_data, :company_categories ```
+  ``` attr_accessor :filter ```
+  you are not using that variables in other classes
+
+2. In your README file you didn't mention how to search for your telegram bot.Kindly add this to your README instructions.
+
+
+- On your telegram account search for :
+  ```
+   @pizzamvcapstone_bot
+
+   ``` 
+- Then press the /START button and follow the steps given
+
+
+<!-- ------------------------------ -->
+
+Hello, Carlos Osorio 👋 Congratulations on finishing the ruby section of the Microverse.The app runs as expected.
+
+1. The unit tests cover both positive and negative test case scenarios
+2. The project solves the problem it was supposed to solve.
+3. Your PR has a good title and description.
+4. You have descriptive git commit messages.
+
+
+
+
+1. There is unnecessary attribute accessors in all your classes
+  ``` attr_reader :content, :companies ```
+  ``` attr_reader :raw_data ```
+  ``` attr_accessor :selected_data, :company_categories ```
+  ``` attr_accessor :filter ```
+  you are not using that variables in other classes
+
+2. Kindly make develop branch as default
+
+3. Create different files for every class with the same name
+
+4. Your code structure could greatly be improved. Thinking in terms of having an "organization" object for example which will hold only data you need about the given organization.
