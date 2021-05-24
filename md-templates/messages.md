@@ -4,21 +4,25 @@
 
 Hi Mike.Congratulations on your hard work, your project is now approved
 
+
+THIS IS VERY IMPRESSIVE WORK. YOU HAVE DONE A GOOD JOB +1
+
 You did an awesome job of writing a descriptive README.Your README content explains how to play the game and also the rules of the game.
 
 You can go ahead and merge this branch to the base branch of this repo.
 
 Your project certainly is working fine.
 
-Good luck in your future projects and happy coding :relaxed:
-
-
-make sure you correct them before merging.
 
 Remember about descriptive README file - feel free to use this template:
 https://github.com/microverseinc/readme-template
 
 
+- [ ] Add h1 tag to the page
+
+  theoretically and logically wrong to have subheadlines ```<h2>``` without a main headline ```<h1>```,   but it won't have a negative effect.
+
+  Note that you have two more reviews on this project before you reach the review limit, so make all of the required changes before submitting for a review
 
 
 <!-- invalid -->
